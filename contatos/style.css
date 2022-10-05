@@ -1,16 +1,16 @@
-#contact {
+#contatos {
     display: table;
     margin: auto;
     width: 100%;
     max-width: 480px;
 }
 
-#contact label {
+#contatos label {
     display: block;
     padding: 0 0 .25rem .25rem;
 }
 
-#contact input, #contact textarea, #contact button {
+#contatos input, #contatos textarea, #contatos button {
     font-family: inherit;
     font-size: inherit;
     width: 100%;
@@ -20,13 +20,13 @@
     border-bottom: 3px solid green;
 }
 
-#contact textarea {
+#contatos textarea {
     min-height: 2rem;
     height: 6rem;
     resize: vertical;
 }
 
-#contact button {
+#contatos button {
     border: none;
     background: linear-gradient(rgb(251, 38, 251), rgb(140, 0, 140));
     color: white;
@@ -35,50 +35,46 @@
     cursor: pointer;
 }
 
-#contact button:hover {
+#contatos button:hover {
     background: linear-gradient(rgb(241, 132, 241), rgb(190, 0, 190));
 }
 
 /* Campos de formulário inválido */
-#contact input:invalid, #contact textarea:invalid {
+#contatos input:invalid, #contatos textarea:invalid {
     background-color: rgb(255, 227, 227);
     border: 1px solid red;
     border-bottom: 3px solid red;
 }
 
 /* Botão de formulário inválido */
-#contact:invalid button {
+#contatos:invalid button {
     background: linear-gradient(rgb(210, 210, 210), grey);
     /* Desabilita cliques */
-    pointer-events: none;
+    pointer-events: none
 }
 
 /* Outros contatos */
 
-.menu-contacts {
+.menu-contatos {
     text-align: center;
     margin-bottom: 1rem;
 }
 
-.menu-contacts a {
+.menu-contatos a {
     display: inline-block;
     padding: .25rem;
 }
 
-.menu-contacts i[class~=fa-facebook] {
+.menu-contatos i[class~=fa-facebook] {
     color: #1877f2;
 }
 
-.menu-contacts i[class~=fa-twitter] {
+.menu-contatos i[class~=fa-twitter] {
     color: #1da1f2;
 }
 
-.menu-contacts i[class~=fa-instagram] {
+.menu-contatos i[class~=fa-instagram] {
     color: #c13584;
-}
-
-.menu-contacts i[class~=fa-phone] {
-    color: #000;
 }
 
 .links {
